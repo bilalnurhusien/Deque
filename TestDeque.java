@@ -2,7 +2,7 @@ public class TestDeque {
     
     public static void main(String[] args) {
         
-        Deque<Integer> Dint = new Deque<Integer>();
+       Deque<Integer> Dint = new Deque<Integer>();
        
        for(int x = 0; x < 10; x++)
            Dint.addFirst(x);
@@ -20,7 +20,7 @@ public class TestDeque {
        // Print in order
        StdOut.println("Print in order: ");
       
-        while (Dint.size() > 0)
+       while (Dint.size() > 0)
        {
            int x = Dint.removeLast();
            StdOut.println(x);
@@ -34,7 +34,7 @@ public class TestDeque {
          // Print in reverse order
        StdOut.println("Print in reverse order: ");
       
-        while (Dint.size() > 0)
+       while (Dint.size() > 0)
        {
            int x = Dint.removeFirst();
            StdOut.println(x);
@@ -48,13 +48,13 @@ public class TestDeque {
          // Print in order
        StdOut.println("Print in order: ");
       
-        while (Dint.size() > 0)
+       while (Dint.size() > 0)
        {
            int x = Dint.removeFirst();
            StdOut.println(x);
        }  
         
-        for(int x = 0; x < 10; x++)
+       for(int x = 0; x < 10; x++)
            Dint.addLast(x);
        
        StdOut.println("Size is: " + Dint.size());
@@ -62,13 +62,13 @@ public class TestDeque {
          // Print in order
        StdOut.println("Print in reverse order: ");
       
-        while (Dint.size() > 0)
+       while (Dint.size() > 0)
        {
            int x = Dint.removeLast();
            StdOut.println(x);
        }  
         
-        for(int x = 0; x < 10; x++)
+       for(int x = 0; x < 10; x++)
            Dint.addFirst(x);
        
        StdOut.println("Size is: " + Dint.size());
@@ -76,7 +76,7 @@ public class TestDeque {
          // Print in reverse order
        StdOut.println("Print in reverse order: ");
       
-        while (Dint.size() > 0)
+       while (Dint.size() > 0)
        {
            int x = Dint.removeFirst();
            StdOut.println(x);
