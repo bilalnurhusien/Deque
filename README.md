@@ -1,7 +1,7 @@
 Deque
 =====
 
-Implemented a double-ended queue or deque with the following API:
+Implemented a double-ended queue (or deque) with the following API:
 
 
       public class Deque<Item> implements Iterable<Item> {
